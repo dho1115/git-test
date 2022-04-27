@@ -5,3 +5,12 @@ to see your commits:
 git log --one line 
 or
 git log 
+
+to configure/setup your git:
+git config --global user.name "your name" 
+git config --global user.email "email address." 
+
+others: 
+git config --list
+
+npm i lite-server --save-dev (saves it ONLY as a developmental server. Later, when we deploy this, the lite-server will NOT be included). 
