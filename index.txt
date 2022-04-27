@@ -1,0 +1,7 @@
+If you have a detached head:
+git checkout master.
+
+to see your commits:
+git log --one line 
+or
+git log 
