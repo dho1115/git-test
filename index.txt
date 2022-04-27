@@ -13,4 +13,9 @@ git config --global user.email "email address."
 others: 
 git config --list
 
-npm i lite-server --save-dev (saves it ONLY as a developmental server. Later, when we deploy this, the lite-server will NOT be included). 
+npm i lite-server --save-dev (saves it ONLY as a developmental server. Later, when we deploy this, the lite-server will NOT be included).
+
+To discard the effect of the prv. operation and restore index.html: 
+git reset HEAD index.html 
+git checkout --index.html 
+
